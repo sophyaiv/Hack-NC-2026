@@ -1,0 +1,4 @@
+# keep secrets and installed packages off GitHub
+.env
+node_modules/
+.DS_Store
