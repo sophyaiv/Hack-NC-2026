@@ -1,0 +1,13 @@
+{
+  "name": "kind-tides",
+  "version": "1.0.0",
+  "description": "Kind Tides: an iMessage agent and Frutiger Aero reef for rough days",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env agent.mjs",
+    "test-chat": "node --env-file-if-exists=.env agent.mjs --terminal"
+  },
+  "dependencies": {
+    "spectrum-ts": "^12.10.1"
+  }
+}
